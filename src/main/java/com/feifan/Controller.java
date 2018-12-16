@@ -18,10 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class Controller {
-	//干嘛呢，兄弟
+	//干嘛呢，兄弟 设是你
 	@RequestMapping(value="/juju")
 	public List<POJO> ju( ArrayList<String> who) {
-		
+		int ji=10;
 		List<POJO> list =new ArrayList<>();
 		for(int i=0;i<who.size();i++) {
 			POJO pojo= new POJO();

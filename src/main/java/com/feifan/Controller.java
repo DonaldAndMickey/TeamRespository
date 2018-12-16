@@ -18,8 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class Controller {
-	
-
+	//干嘛呢，兄弟
 	@RequestMapping(value="/juju")
 	public List<POJO> ju( ArrayList<String> who) {
 		
